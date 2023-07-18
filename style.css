@@ -13,4 +13,54 @@
     --medium-large-font-size: 3rem;
     --medium-small-font-size: 1.25rem;
     --small-font-size: 1.125rem;
+    --primary-color: #FF42A5;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.follow-us-box img{
+    width: auto;
+    height: 24px;
+}
+
+.follow-us-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 7px 24px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+
+.nav-right-side{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-right-side ul{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo img{
+    height: 25px;
+    width: auto;
+}
+
+#letter-g{
+    color: var(--primary-color);
 }
