@@ -4,4 +4,13 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+    border: none;
+    font-family: 'Work Sans', sans-serif;
+}
+
+:root{
+    --large-font-size: 6rem;
+    --medium-large-font-size: 3rem;
+    --medium-small-font-size: 1.25rem;
+    --small-font-size: 1.125rem;
 }
