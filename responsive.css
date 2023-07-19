@@ -1,10 +1,37 @@
-@media screen and (max-width:576px) {
+@media screen and (max-width:390px) {
+    :root{
+    --large-font-size: 2.5rem;
+    --medium-large-font-size: 1.5rem;
+    --logo-font-size: 2rem;
+    --medium-small-font-size: 0.8rem;
+    --small-font-size: 0.9rem;
+    --smallest-font-size: 0.8rem;
+    --primary-color: #FF42A5;
+}
+    
+    
     .nav-bar,
     .nav-right-side ul,
     .nav-right-side
     {
         flex-direction: column;
         gap: 1.5rem;
+    }
+
+    .nav-bar{
+        padding: 20px 30px;
+    }
+
+    .second-section{
+        padding: 30px 20px;
+    }
+
+    .b-img-1{
+        height: 220px;
+    }
+
+    .b-img-2{
+        height: 100px;
     }
 
     .banner-1{
@@ -23,6 +50,117 @@
 
     .banner-2{
         flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        margin-bottom: 50px;
+    }
+
+    .text-box-3{
+        text-align: center;
+    }
+
+    .fourth-section-contents{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .footer-list-1, .icon-box, .footer-list-2{
+        flex-direction: column;
+    }
+
+    .box p{
+        text-align: center;
+    }
+
+    .text-box-1{
+        text-align: center;
+        margin-left: 50px;
+        justify-content: center;
+    }
+
+
+    .banner-bg{
+        padding: 20px;
+    }
+
+    .third-section{
+        padding: 0px;
+    }
+
+    .first-image{
+        height: 250px;
+    }
+
+    .option img{
+        height: 30px; 
+    }
+    .option p{
+        font-size: 12px;
+    }
+
+}
+
+
+
+
+@media screen and (min-width:391px) and (max-width:576px) {
+    :root{
+    --large-font-size: 2.5rem;
+    --medium-large-font-size: 1.5rem;
+    --logo-font-size: 2rem;
+    --medium-small-font-size: 0.8rem;
+    --small-font-size: 0.9rem;
+    --smallest-font-size: 0.8rem;
+    --primary-color: #FF42A5;
+    }
+    
+    
+    .nav-bar,
+    .nav-right-side ul,
+    .nav-right-side
+    {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .nav-bar{
+        padding: 20px 80px;
+    }
+
+    .second-section{
+        padding: 30px 20px;
+    }
+
+    .b-img-1{
+        height: 250px;
+    }
+
+    .b-img-2{
+        height: 150px;
+    }
+
+    .banner-1{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .card-box{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+    }
+
+    .banner-2{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        margin-bottom: 50px;
+    }
+
+    .text-box-3{
+        text-align: center;
     }
 
     .fourth-section-contents{
@@ -33,9 +171,35 @@
         flex-direction: column;
     }
 
-    /* .text-box-2{
+    .box p{
         text-align: center;
-    } */
+    }
+
+    .text-box-1{
+        text-align: center;
+        margin-left: 50px;
+        justify-content: center;
+    }
+
+
+    .banner-bg{
+        padding: 20px;
+    }
+
+    .third-section{
+        padding: 0px;
+    }
+
+    .first-image{
+        height: 300px;
+    }
+
+    .option img{
+        height: 30px; 
+    }
+    .option p{
+        font-size: 12px;
+    }
 
 }
 
@@ -44,11 +208,42 @@
 
 
 
-/* @media screen and (min-width:577px), (max-width:992px){
+@media screen and (min-width:577px) and (max-width:1063px){
     .banner-1{
         display: flex;
         flex-direction: column-reverse;
     }
 
-} */
+    .option img{
+        height: 30px; 
+    }
+    .option p{
+        font-size: 12px;
+    }
+
+    .third-section{
+        padding: 0px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+        
+    }
+
+    .text-box-3 h2 {
+        font-size: 20px;
+    }
+
+    .text-box-3 h2 span{
+        font-size: 2rem;
+    }
+
+    .text-box-3 p{
+        font-size: 12px;
+    }
+
+    .card-box{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+}
 
