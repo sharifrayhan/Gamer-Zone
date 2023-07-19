@@ -130,6 +130,9 @@
     justify-content: center;
     padding: 20px 120px;
     height: 100%;
+    background-image: url(Images/Group\ 14.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .banner-1{
@@ -236,7 +239,7 @@
 .card {
     position: relative;
     width: auto;
-    min-height: 300px;
+    height: 300px;
     border-radius: 10px;
     transition: background-color 0.3s ease;
   }
@@ -283,6 +286,16 @@
     background-image: url(Images/play\ button.png);
     background-position: center;
     background-size: contain;
+  }
+
+  .watch-now{
+    position: absolute;
+    bottom: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #F948B2;
+    font-weight: 800;
+    font-size: var(--medium-small-font-size);
   }
   
 .box p{
