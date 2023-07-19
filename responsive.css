@@ -234,7 +234,7 @@
 
 
 
-@media screen and (min-width:577px) and (max-width:1063px){
+@media screen and (min-width:577px) and (max-width:750px){
     .banner-1{
         display: flex;
         flex-direction: column-reverse;
@@ -287,6 +287,77 @@
     .text-box-2 h2, .text-box-2 h2 span{
         font-size: 24px;
     }
+    .banner-image-2{
+        margin-right: 50px;
+    }
 
+    .banner-2{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        margin-bottom: 50px;
+    }
+
+    .text-box-3{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:751px) and (max-width:1063px){
+    .banner-1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .nav-bar{
+        padding: 20px 30px;
+    }
+    .text-box-1{
+        align-items: center;
+    }
+
+    .option img{
+        height: 30px; 
+    }
+    .option p{
+        font-size: 12px;
+    }
+
+    .third-section{
+        padding: 0px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+        
+    }
+
+    .text-box-3 h2 {
+        font-size: 20px;
+    }
+
+    .text-box-3 h2 span{
+        font-size: 2rem;
+    }
+
+    .text-box-3 p{
+        font-size: 12px;
+    }
+
+    .card-box{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .text-box-2{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-box-2 h2, .text-box-2 h2 span{
+        font-size: 24px;
+    }
+    .banner-image-2{
+        margin-right: 50px;
+    }
 }
 
