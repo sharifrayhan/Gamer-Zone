@@ -10,14 +10,45 @@
     .banner-1{
         display: flex;
         flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
     }
+
+    .card-box{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+    }
+
+    .banner-2{
+        flex-direction: column;
+    }
+
+    .fourth-section-contents{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .footer-list-1, .icon-box, .footer-list-2{
+        flex-direction: column;
+    }
+
+    /* .text-box-2{
+        text-align: center;
+    } */
+
 }
 
 
 
 
 
-@media screen and (min-width:577px), (max-width:996px){
 
+/* @media screen and (min-width:577px), (max-width:992px){
+    .banner-1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
 
-}
+} */
+
