@@ -75,6 +75,17 @@
         text-align: center;
         margin-left: 50px;
         justify-content: center;
+        align-items: center;
+    }
+
+    .button-1, .button-2{
+        padding: 15px 35px;
+    }
+
+    .text-box-2{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
     }
 
 
@@ -152,6 +163,10 @@
         gap: 1rem;
     }
 
+    .button-1, .button-2{
+        padding: 15px 35px;
+    }
+
     .banner-2{
         flex-direction: column;
         align-items: center;
@@ -162,6 +177,17 @@
     .text-box-3{
         text-align: center;
     }
+
+    .text-box-2{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-box-2 h2, .text-box-2 h2 span{
+        font-size: 25px;
+    }
+
 
     .fourth-section-contents{
         grid-template-columns: repeat(3, 1fr);
@@ -214,6 +240,13 @@
         flex-direction: column-reverse;
     }
 
+    .nav-bar{
+        padding: 20px 30px;
+    }
+    .text-box-1{
+        align-items: center;
+    }
+
     .option img{
         height: 30px; 
     }
@@ -243,6 +276,16 @@
     .card-box{
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
+    }
+
+    .text-box-2{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-box-2 h2, .text-box-2 h2 span{
+        font-size: 24px;
     }
 
 }
