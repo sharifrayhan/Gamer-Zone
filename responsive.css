@@ -59,6 +59,10 @@
         text-align: center;
     }
 
+    .text-box-3 p{
+        text-align: center;
+    }
+
     .fourth-section-contents{
         grid-template-columns: repeat(2, 1fr);
     }
@@ -73,12 +77,12 @@
 
     .text-box-1{
         text-align: center;
-        margin-left: 50px;
+        margin-left: 0px;
         justify-content: center;
         align-items: center;
         background-image: url(Images/Group\ 14.png);
         background-size: 100%;
-        padding: 50px;
+        padding: 30px;
     }
 
     .button-1, .button-2{
@@ -186,6 +190,10 @@
     }
 
     .text-box-3{
+        text-align: center;
+    }
+
+    .text-box-3 p{
         text-align: center;
     }
 
